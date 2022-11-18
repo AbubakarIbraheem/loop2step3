@@ -1,0 +1,137 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+body {
+  background-color: hsl(258deg 70% 72%);
+}
+html,
+body {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+.main {
+  margin-left: 30rem;
+  margin-top: 5rem;
+  position: relative;
+}
+.top {
+  width: 20rem;
+  height: 5rem;
+  background-color: hsl(275deg 52% 66%);
+}
+.middle {
+  width: 20rem;
+  height: 10rem;
+  background-color: hsl(257deg 22% 41%);
+}
+.bottom {
+  width: 20rem;
+  height: 5rem;
+  background-color: hsl(259deg 48% 64%);
+}
+.line {
+  width: 2px;
+  height: 2.6rem;
+  background-color: white;
+  position: absolute;
+  left: 2rem;
+}
+.first {
+  display: flex;
+  align-items: center;
+  gap: 10.5rem;
+  left: 1.35rem;
+  position: absolute;
+  top: 2.5rem;
+}
+.one {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+#photo {
+  border: 1px solid white;
+  border-radius: 50%;
+  padding: 0.15rem;
+  background-color: white;
+  width: 17px;
+  height: 17px;
+}
+.white {
+  width: 2px;
+  height: 2rem;
+  background-color: hsl(256deg 15% 71%);
+  position: absolute;
+  left: 2rem;
+}
+.circle {
+  width: 7px;
+  height: 7px;
+  background-color: white;
+  position: absolute;
+  border-radius: 50%;
+}
+.biyu {
+  width: 2px;
+  height: 1.2rem;
+  background-color: hsl(256deg 15% 71%);
+  position: absolute;
+  left: 2rem;
+  top: 8rem;
+}
+.biyuu {
+  width: 2px;
+  height: 1.2rem;
+  background-color: hsl(256deg 15% 71%);
+  position: absolute;
+  left: 2rem;
+  top: 10.5rem;
+}
+.brown {
+  width: 2px;
+  height: 2rem;
+  background-color: hsl(256deg 15% 71%);
+  position: absolute;
+  left: 2rem;
+  top: 13rem;
+}
+.holiday {
+  display: flex;
+  align-items: center;
+  position: relative;
+  left: 1.9rem;
+  justify-content: space-between;
+  padding-bottom: 1rem;
+  top: 2rem;
+}
+.text {
+  position: relative;
+  left: 1.5rem;
+}
+.last {
+  width: 2px;
+  height: 1.8rem;
+  background-color: white;
+  position: absolute;
+  left: 2rem;
+}
+.files {
+  display: flex;
+  align-items: center;
+  position: absolute;
+  top: 16.8rem;
+  left: 1.35rem;
+  gap: 1rem;
+}
+.karshe {
+  width: 2px;
+  height: 1.7rem;
+  background-color: white;
+  position: absolute;
+  top: 18.3rem;
+  left: 2rem;
+}
+p {
+  color: hsl(264deg 17% 88%);
+}
